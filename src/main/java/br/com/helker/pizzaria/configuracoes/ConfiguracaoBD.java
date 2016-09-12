@@ -23,7 +23,7 @@ public class ConfiguracaoBD {
 	
 	
 	
-	@Bean
+	/*@Bean
 	public DataSource dataSource() throws IllegalStateException, PropertyVetoException {
 		ComboPooledDataSource dataSource = new ComboPooledDataSource();
 		dataSource.setDriverClass("org.postgresql.Driver");
@@ -31,8 +31,8 @@ public class ConfiguracaoBD {
 		dataSource.setUser("lqheznqiskbchx");
 		dataSource.setPassword("925S2xQhtriFGUADSAc-mk4cUq");
 		return dataSource;
-	}
-	/*@Bean
+	}*/
+	@Bean
 	public DataSource dataSource() throws IllegalStateException, PropertyVetoException {
 		ComboPooledDataSource dataSource = new ComboPooledDataSource();
 		dataSource.setDriverClass("org.postgresql.Driver");
@@ -40,7 +40,7 @@ public class ConfiguracaoBD {
 		dataSource.setUser("postgres");
 		dataSource.setPassword("123456");
 		return dataSource;
-	}*/
+	}
 	
 	@Bean
 	public LocalContainerEntityManagerFactoryBean entityManagerFactory() throws Exception {
