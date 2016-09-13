@@ -55,7 +55,7 @@ public class ConfiguracaoBD {
 		jpaProterties.put("hibernate.ejb.naming_strategy","org.hibernate.cfg.ImprovedNamingStrategy");
 		jpaProterties.put("hibernate.show_sql","true");
 		jpaProterties.put("hibernate.format_sql","true");
-		jpaProterties.put("hibernate.hbm2ddl.auto","create");
+		jpaProterties.put("hibernate.hbm2ddl.auto","update");
 		entityManagerFactoryBean.setJpaProperties(jpaProterties);
 		return entityManagerFactoryBean;
 	}
