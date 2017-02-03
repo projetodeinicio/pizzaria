@@ -1,10 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<!DOCTYPE html>
+<%@ include file="../../templates/head.jsp"%>
 <fmt:setLocale value="pt_BR"/>
 <table
 	class="table table-hover table-condensed table-striped table-bordered">
@@ -15,10 +9,10 @@
 			<td>Senha</td>
 			<td>Data de Cad</td>
 			<td>Nome</td>
-			<td>EndereÃ§o</td>
+			<td>Endereço</td>
 			<td>E-mail</td>
 			<td>Telefone</td>
-			<td>PermissÃµes</td>
+			<td>Permissões</td>
 		</tr>
 	</thead>
 	<tbody>

@@ -22,23 +22,13 @@ import com.mchange.v2.c3p0.ComboPooledDataSource;
 public class ConfiguracaoBD {
 	
 	
-	
-	/*@Bean
-	public DataSource dataSource() throws IllegalStateException, PropertyVetoException {
-		ComboPooledDataSource dataSource = new ComboPooledDataSource();
-		dataSource.setDriverClass("org.postgresql.Driver");
-		dataSource.setJdbcUrl("postgres://lqheznqiskbchx:925S2xQhtriFGUADSAc-mk4cUq@ec2-54-83-47-88.compute-1.amazonaws.com:5432/dco3af2s6rvkes");
-		dataSource.setUser("lqheznqiskbchx");
-		dataSource.setPassword("925S2xQhtriFGUADSAc-mk4cUq");
-		return dataSource;
-	}*/
 	@Bean
 	public DataSource dataSource() throws IllegalStateException, PropertyVetoException {
 		ComboPooledDataSource dataSource = new ComboPooledDataSource();
 		dataSource.setDriverClass("org.postgresql.Driver");
 		dataSource.setJdbcUrl("jdbc:postgresql://localhost:5432/pizzaria");
 		dataSource.setUser("postgres");
-		dataSource.setPassword("123456");
+		dataSource.setPassword("12345");
 		return dataSource;
 	}
 	

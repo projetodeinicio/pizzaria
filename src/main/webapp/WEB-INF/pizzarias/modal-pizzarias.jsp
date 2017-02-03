@@ -1,11 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<!DOCTYPE html>
-<html>
-
 <div class="modal fade" id="modal-pizzarias" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -22,7 +14,7 @@
 			<label for="dataCadastro">Data de cadastro: </label>
 			<input id="dataCadastro" name="dataCadastro" class="form-control">
 			
-			<label for="endereco">EndereÃ§o: </label>
+			<label for="endereco">Endereço: </label>
 			<input id="endereco" name="endereco" class="form-control">
 			
 			<label for="login">Login: </label>

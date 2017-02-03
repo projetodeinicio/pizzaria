@@ -1,10 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
-<!DOCTYPE html>
-<html>
 <div class="modal fade" id="modal-cliente" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
@@ -20,7 +13,7 @@
 			<label for="nome">Nome: </label>
 			<input id="nome" name="nome" class="form-control" required>
 			
-			<label for="endereco">EndereÃ§o: </label>
+			<label for="endereco">Endereço: </label>
 			<input id="preco" name="preco" class="form-control" required>
 			
 			<label for="dataCompra">data Compra: </label>
